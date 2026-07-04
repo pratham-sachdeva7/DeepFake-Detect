@@ -2,8 +2,6 @@
 
 A deep learning pipeline for detecting deepfake videos/images using face-crop preprocessing and a CNN classifier (EfficientNetB0 backbone), with a Flask web app for interactive predictions.
 
-![App Screenshot](img/dfdetect-home.png)
-
 ## Overview
 
 This project detects whether a face in an image/video frame is **real** or **fake** (deepfake-manipulated). It follows an end-to-end pipeline:
@@ -115,6 +113,11 @@ Then open your browser at `http://localhost:5000` (or the port shown in the cons
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Authors
+
+- **Pratham Sachdeva**
+- **Priyanshi Kunte**
 
 ## Acknowledgements
 
